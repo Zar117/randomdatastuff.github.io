@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: space-evenly;
+    border: 2px solid red;
+    background-color: gray;
+}
+
+.headerBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    border: 2px solid blue;
+    
+
+}
+
+img{
+    max-width: 25%;
+    height: auto;
+}
+
+.titleBox{
+    display: grid;
+    grid-column: 2;
+    justify-content: stretch;
+    border: 2px solid blue;
+    
+}
+
+.blogBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    border: solid 2px yellow;
+}
+
+.blogTitleBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.blogImageBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
